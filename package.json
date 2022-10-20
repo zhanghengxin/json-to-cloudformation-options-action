@@ -1,5 +1,5 @@
 {
-  "name": "json-to-cloudformation-options-action",
+  "name": "reading a file of JSON",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
