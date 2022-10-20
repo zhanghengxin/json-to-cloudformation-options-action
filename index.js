@@ -16,7 +16,7 @@ const core = require('@actions/core');
             toReturn += `"${prop}=${json[prop]}"`
         }
         core.setOutput("value", toReturn);
-        core.setOutput("property", json[property]
+        core.setOutput("property", json[property]);
     } catch (error) {
    		core.setFailed(error.message);
     }
