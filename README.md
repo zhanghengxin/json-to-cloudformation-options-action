@@ -1,4 +1,4 @@
-# json-to-cloudformation-options-action
+# reading a file of JSON
 Convert a json file to the string format needed by cloudformation.
 
 ## Example
