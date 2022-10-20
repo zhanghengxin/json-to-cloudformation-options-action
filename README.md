@@ -6,7 +6,7 @@ also uses read json property to just read location of artifact and upload to s3 
 ```
 - name: Read Properties
   id: read_property
-  uses:  ashley-taylor/read-json-property-action@v1.0
+  uses:  zhanghengxin/reading-a-file-of-JSON@ice
   with:
     path: target/cf.conf
     property: artifact
