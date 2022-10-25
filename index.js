@@ -15,8 +15,8 @@ const core = require('@actions/core');
             }
             toReturn += `"${prop}=${json[prop]}"`
         }
-        core.exportVariable("value", toReturn);
-        core.exportVariable(property, json[property]);
+        core.setOutput("value", toReturn);
+        core.setOutput("property", json[property]);
     } catch (error) {
    		core.setFailed(error.message);
     }
