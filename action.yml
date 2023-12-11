@@ -5,8 +5,10 @@ branding:
   color: 'green'
 inputs:
   path:
-    description: 'path to sjon file containing parameters'
+    description: 'path to sjon file containing parameters.'
     required: true
+  property:
+    description: 'json property name.'
   outputs:
     value:
       description: 'string in cloud formation format'
